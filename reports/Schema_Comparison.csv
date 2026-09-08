@@ -1,0 +1,21 @@
+Column,2024_Dtype,2025_Dtype,Status,TypeDifference
+Airport_fee,float64,float64,Common,No
+DOLocationID,int32,int32,Common,No
+PULocationID,int32,int32,Common,No
+RatecodeID,float64,float64,Common,No
+VendorID,int32,int32,Common,No
+cbd_congestion_fee,NOT PRESENT,float64,Added in 2025,No
+congestion_surcharge,float64,float64,Common,No
+extra,float64,float64,Common,No
+fare_amount,float64,float64,Common,No
+improvement_surcharge,float64,float64,Common,No
+mta_tax,float64,float64,Common,No
+passenger_count,float64,float64,Common,No
+payment_type,int64,int64,Common,No
+store_and_fwd_flag,str,str,Common,No
+tip_amount,float64,float64,Common,No
+tolls_amount,float64,float64,Common,No
+total_amount,float64,float64,Common,No
+tpep_dropoff_datetime,datetime64[us],datetime64[us],Common,No
+tpep_pickup_datetime,datetime64[us],datetime64[us],Common,No
+trip_distance,float64,float64,Common,No

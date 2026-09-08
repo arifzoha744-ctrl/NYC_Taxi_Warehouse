@@ -1,0 +1,14 @@
+CREATE DATABASE NYCTaxiWarehouse;
+GO
+
+USE NYCTaxiWarehouse;
+GO
+
+CREATE SCHEMA stg;
+GO
+
+CREATE SCHEMA dw;
+GO
+
+CREATE SCHEMA etl;
+GO

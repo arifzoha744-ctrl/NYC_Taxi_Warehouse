@@ -1,0 +1,5 @@
+SourceFile,RawRows,ValidRows,QuarantinedRows,DuplicateRows,RawTotalAmount,ValidTotalAmount,QuarantinedTotalAmount,Reconciles
+yellow_tripdata_2024-01.parquet,2964624,2960859,3765,0,79456384.28,79277691.57,178692.71000000002,True
+yellow_tripdata_2024-02.parquet,3007526,3004008,3518,1,80073615.28,79919294.0,154321.28,True
+yellow_tripdata_2025-01.parquet,3475226,3470964,4262,0,89005026.80000001,87974456.16,1030570.64,True
+yellow_tripdata_2025-02.parquet,3577543,3570398,7145,0,89547869.13999999,89190739.06,357130.08,True
