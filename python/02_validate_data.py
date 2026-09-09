@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-RAW_DIR = BASE_DIR / "raw"
+RAW_DIR = BASE_DIR / "python" / "raw"
 
 zone_file = RAW_DIR / "taxi_zone_lookup.csv"
 
