@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-RAW_DIR = BASE_DIR / "raw"
+RAW_DIR = BASE_DIR / "python" / "raw"
 
 files = [
     RAW_DIR / "2024" / "yellow_tripdata_2024-01.parquet",
